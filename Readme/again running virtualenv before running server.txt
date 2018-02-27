@@ -1,0 +1,21 @@
+root@kali:~# cd Desktop/flasksite
+root@kali:~/Desktop/flasksite# dir
+app.py	creating\ virtualenv\ README.txt  env  login.html  static  templates
+root@kali:~/Desktop/flasksite# cd env
+root@kali:~/Desktop/flasksite/env# dir
+bin  include  lib  pip-selfcheck.json
+root@kali:~/Desktop/flasksite/env# cd bin
+root@kali:~/Desktop/flasksite/env/bin# dir
+activate       activate_this.py  flask	pip3.6	 python3.6
+activate.csh   easy_install	 pip	python	 python-config
+activate.fish  easy_install-3.6  pip3	python3  wheel
+root@kali:~/Desktop/flasksite/env/bin# source ./activate
+(env) root@kali:~/Desktop/flasksite/env/bin# cd ..
+(env) root@kali:~/Desktop/flasksite/env# cd ..
+(env) root@kali:~/Desktop/flasksite# dir
+app.py	creating\ virtualenv\ README.txt  env  login.html  static  templates
+(env) root@kali:~/Desktop/flasksite# python3 app.py
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+^C(env) root@kali:~/Desktop/flasksite# ^C
+(env) root@kali:~/Desktop/flasksite# 
+
